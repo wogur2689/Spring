@@ -57,6 +57,6 @@ public class Order {
                 ", itemNAme='" + itemNAme + '\'' +
                 ", itemPrice=" + itemPrice +
                 ", discountPrice=" + discountPrice +
-                "}";
+                '}';
     }
 }
