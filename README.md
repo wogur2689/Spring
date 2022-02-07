@@ -3,6 +3,12 @@ Spring 프레임워크 공부 / 프로젝트
 
 <hr>
 
+# 기본 API
+- GET
+- POST
+- PUT
+- DELETE
+
 # 스프링 게시판
 - 글쓰기  
 - 작성된 글 보기
