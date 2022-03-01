@@ -28,3 +28,6 @@ Spring 프레임워크 공부 / 프로젝트
 - 이메일
 - 닉네임
 - 패스워드
+
+# DB간 데이터 전송
+- MySQL -> postgreSQL
