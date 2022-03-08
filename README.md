@@ -31,3 +31,4 @@ Spring 프레임워크 공부 / 프로젝트
 
 # DB간 데이터 전송
 - MySQL -> postgreSQL
+- 방식 : 입력 -> MySQL 저장 -> 꺼내와서 보내기 -> 보낸 데이터 받기 -> postgreSQL 저장 -> 저장된 데이터를 조회해서 출력
