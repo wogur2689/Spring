@@ -37,3 +37,9 @@ Spring 프레임워크 공부 / 프로젝트
 
 # 스프링 스케줄링
 - 스케줄링 기본
+
+# 스프링 valid
+- valid 기본
+
+# 스프링 Exception
+- Exception 기본
