@@ -15,7 +15,7 @@ Spring 프레임워크 공부 / 프로젝트
 - 작성된 글 삭제하기
 - 검색
 - 페이징
-- AWS에서 ec2 + s3 + RDS를 통해 배포됨. (AWS는 가상서버)
+- AWS에서 ec2 + s3 + RDS를 통해 배포됨. (비용문제로 현재는 운영 안함.)
 
 # 스프링 회원
 - 회원가입 (비밀번호 암호화)
@@ -39,13 +39,13 @@ Spring 프레임워크 공부 / 프로젝트
 - 스케줄링 기본
 
 # 스프링 valid
-- valid 기본
+- valid 기본(패스트캠퍼스)
 
 # 스프링 Exception
-- Exception 기본
+- Exception 기본(패스트캠퍼스)
 
 # 스프링 filter
-- filter 기본
+- filter 기본(패스트캠퍼스)
 
 # 스프링 비동기
-- async 기본
+- async 기본(패스트캠퍼스)
