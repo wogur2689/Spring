@@ -11,4 +11,6 @@
 - thymeleaf
 - mysql
 - naver api
+- JQuery
+- bootstrap
 
