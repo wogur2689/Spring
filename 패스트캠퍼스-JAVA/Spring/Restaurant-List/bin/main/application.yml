@@ -1,0 +1,73 @@
+server:
+ port: 8888
+ 
+spring:
+  profiles:
+    active: dev
+  datasource:
+    hikari:
+      auto-commit: false
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    url: jdbc:log4jdbc:mysql://192.168.0.11:3306/settlement?createDatabaseIfNotExist=true&serverTimezone=UTC&characterEncoding=UTF-8
+    username: klimsolution
+    password: klim1234
+
+    #url: jdbc:log4jdbc:mysql://localhost:3306/test?createDatabaseIfNotExist=true&serverTimezone=UTC&characterEncoding=UTF-8
+    #username: root
+    #password: 1234
+
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    properties:
+      hibernate:
+        order_inserts: true
+        order_updates: true
+        jdbc:
+          batch_size: 1000
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+        format_sql: true
+
+
+#primary:
+#  datasource:
+#    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+#    url: jdbc:log4jdbc:mysql://192.168.0.11:3306/settlement?createDatabaseIfNotExist=true&serverTimezone=UTC&characterEncoding=UTF-8
+#    #url: jdbc:log4jdbc:mysql://192.168.0.11:3306/settlement?rewriteBatchedStatements=true&profileSQL=false&logger=Slf4JLogger&maxQuerySizeToLog=999999
+#    username: klimsolution
+#    password: klim1234
+
+#secondary:
+#  datasource: 
+#    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+#    url: jdbc:log4jdbc:mysql://localhost:3306/test?createDatabaseIfNotExist=true&serverTimezone=UTC&characterEncoding=UTF-8
+#    #url: jdbc:log4jdbc:mysql://localhost:3306/test?rewriteBatchedStatements=true&profileSQL=false&logger=Slf4JLogger&maxQuerySizeToLog=999999
+#    username: root
+#    password: 1234
+    
+logging:
+  slack:
+    webhook-uri: https://hooks.slack.com/services/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
+  level:
+    org.hibernate.SQL: off
+    #org.hibernate.type.descriptor.sql: trace
+  file:
+    path: ../logs
+    max-history: 1
+    max-size: 2GB  
+    
+popbill:
+  #링크아이디
+  linkId: KURLYBILL_SA
+  #비밀키
+  secretKey: UiEXQKQTqGYMqH3TPMRVC9E1pcW87Hiz3Y9CIXtNgZ8=
+  #연동환경 설정값 true(개발용), false(상업용)
+  isTest: true
+  #인증토큰 아이피 제한 기능 사용여부 true(사용-권장), false(미사용)
+  isIpRestrictOnOff: true
+  #팝빌 API 서비스 고정 IP 사용여부 true(사용), false(미사용)
+  useStaticIp: false
+  #로컬시스템 시간 사용여부 true(사용-권장), false(미사용)
+  useLocalTimeYn: true

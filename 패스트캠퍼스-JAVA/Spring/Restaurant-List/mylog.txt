@@ -1,0 +1,42 @@
+[INFO ] 17:57:15.359 com.DemoApplication - Starting DemoApplication using Java 15.0.2 on DESKTOP-Q1UCSQ7 with PID 14464 (D:\workspace\spring-folder\demo\bin\main started by kkkk in D:\workspace\spring-folder\demo)
+[INFO ] 17:57:15.359 com.DemoApplication - The following profiles are active: dev
+[INFO ] 17:57:15.927 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 17:57:16.114 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 187 ms. Found 1 JPA repository interfaces.
+[INFO ] 17:57:16.188 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 17:57:16.188 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 17:57:16.189 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[INFO ] 17:57:16.208 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 17:57:16.208 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 847 ms
+[INFO ] 17:57:16.275 com.zaxxer.hikari.HikariDataSource - HikariPool-19 - Starting...
+[INFO ] 17:57:16.277 com.zaxxer.hikari.HikariDataSource - HikariPool-19 - Start completed.
+[INFO ] 17:57:16.278 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 17:57:16.316 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 17:57:16.316 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 17:57:16.447 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 17:57:16.454 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 17:57:16.486 com.DemoApplication - Started DemoApplication in 1.184 seconds (JVM running for 1784.948)
+[INFO ] 17:57:16.488 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 17:57:51.620 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 17:57:51.621 com.zaxxer.hikari.HikariDataSource - HikariPool-19 - Shutdown initiated...
+[INFO ] 17:57:51.624 com.zaxxer.hikari.HikariDataSource - HikariPool-19 - Shutdown completed.
+[INFO ] 17:57:51.700 com.DemoApplication - Starting DemoApplication using Java 15.0.2 on DESKTOP-Q1UCSQ7 with PID 14464 (D:\workspace\spring-folder\demo\bin\main started by kkkk in D:\workspace\spring-folder\demo)
+[INFO ] 17:57:51.700 com.DemoApplication - The following profiles are active: dev
+[INFO ] 17:57:52.279 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 17:57:52.480 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 200 ms. Found 1 JPA repository interfaces.
+[INFO ] 17:57:52.558 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 17:57:52.558 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 17:57:52.558 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[INFO ] 17:57:52.573 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 17:57:52.574 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 873 ms
+[INFO ] 17:57:52.637 com.zaxxer.hikari.HikariDataSource - HikariPool-20 - Starting...
+[INFO ] 17:57:52.641 com.zaxxer.hikari.HikariDataSource - HikariPool-20 - Start completed.
+[INFO ] 17:57:52.641 org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[INFO ] 17:57:52.679 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 17:57:52.679 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 17:57:52.819 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 17:57:52.827 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 17:57:52.851 com.DemoApplication - Started DemoApplication in 1.176 seconds (JVM running for 1821.313)
+[INFO ] 17:57:52.852 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 17:58:33.182 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 17:58:33.184 com.zaxxer.hikari.HikariDataSource - HikariPool-20 - Shutdown initiated...
+[INFO ] 17:58:33.193 com.zaxxer.hikari.HikariDataSource - HikariPool-20 - Shutdown completed.
