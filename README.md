@@ -52,6 +52,7 @@
 
 # 스프링 http통신
 - RestTemplete 기본(패스트캠퍼스)
+- UriComponent
 
 # 테스트
 - Junit5 기본(패스트캠퍼스)
